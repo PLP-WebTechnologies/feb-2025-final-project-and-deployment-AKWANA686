@@ -27,6 +27,8 @@ Good luck and happy coding! 🚀💻
 # My Blog Page
 
 A responsive, multi-page blog website with dark mode functionality and interactive features.
+This is the netlify link for checking out the responsiveness of the app.
+https://akwanablogpage.netlify.app/
 
 ![Blog Screenshot](images/blog%20screenshot.png)
 
