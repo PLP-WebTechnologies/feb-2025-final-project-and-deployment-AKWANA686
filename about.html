@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="about-page">
+        <header class="main-header">
+            <div class="container">
+                <h1>My Blog Page</h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html"  class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="about-section">
+                <h2>About Our Blog</h2>
+                <div class="about-section">
+                    <img src="images/story.jpg" alt="Our Story" class="about-image">
+                    <div>
+                        <h3>Our Story</h3>
+                        <p>Our blog started as a small passion project between friends who wanted to share their knowledge and experiences with the world. What began as a weekend hobby quickly grew into a thriving community of readers and contributors from around the globe.</p>
+                    
+                        <h3>Our Mission</h3>
+                        <p>We believe in the power of sharing knowledge and experiences. Our mission is to create content that informs, inspires, and connects people across different interests and backgrounds. Whether you're looking for tech tutorials, travel tips, or lifestyle advice, we've got you covered.</p>
+                    
+                        <h3>Our Values</h3>
+                        <p>Quality, authenticity, and community are at the heart of everything we do. We're committed to providing accurate, well-researched content while maintaining a friendly and inclusive environment for all our readers.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <p>&copy; 2025 My Blog Page. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <button id="dark-mode-toggle" style="position: fixed; bottom: 20px; right: 20px; background: var(--dark-color); color: white; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 20px; cursor: pointer; z-index: 1000;">🌙</button>
+<script src="script.js"></script>
+</body>
+
+</html>
