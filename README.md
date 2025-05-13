@@ -62,18 +62,18 @@ For development:
 3. Make changes as needed
 
 ## File Structure
-feb-2025-final-project-and-deployment-AKWANA686/
-├── index.html
-├── about.html
-├── contact.html
-├── login.html
-├── README.md # This documentation
-└── images/ # Folder for blog post images
-├── JS-IMAGE.jpg
-├── blog%20screenshot.png 
-├── Travel.jpg
-├── Meat.jpg
-└── story.jpg
+- `feb-2025-final-project-and-deployment-AKWANA686/`
+  - `index.html` - Home page
+  - `about.html` - About page
+  - `contact.html` - Contact page
+  - `login.html` - Login/Signup page
+  - `README.md` - Project documentation
+  - `images/` - Folder for all images
+    - `JS-IMAGE.jpg` - JavaScript blog post image
+    - `blog%20screenshot.png` - Blog screenshot
+    - `Travel.jpg` - Travel blog post image
+    - `Meat.jpg` - Food blog post image
+    - `story.jpg` - About page story image
 
 
 ## How to Use
